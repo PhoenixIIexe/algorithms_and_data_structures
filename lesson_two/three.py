@@ -5,9 +5,11 @@
 
 n = int(input("Введите n: "))
 
-sums = 0
+start = 1
+_sum_ = 0
 
-for i in range(n):
-    sums += int(input())
+for _ in range(n):
+    _sum_ += start
+    start /= -2
 
-print(sums)
+print(_sum_)
