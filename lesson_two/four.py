@@ -7,7 +7,7 @@
 
 from random import randint
 
-def main(a: int, i=1) -> int:
+def main(a: int, i=1) -> str:
     if a == b:
         return 'Win'
     elif i == 10:
