@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2021-06-14T14:43:30.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 YaBrowser/21.5.2.638 Yowser/2.5 Safari/537.36" etag="WTOlToEwQzqwPAtwfRlH" version="14.7.7" type="github">
+  <diagram id="UfGAetdmehxDuWROGf6K" name="Страница 1">
+    <mxGraphModel dx="868" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xuI9y1BZVva3CYZGiV8N-1" value="&lt;font face=&quot;Times New Roman&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 24px&quot;&gt;Начало&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="300" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xuI9y1BZVva3CYZGiV8N-2" value="&lt;b style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px&quot;&gt;Ввод letter_one.lower(), letter_two.lower()&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xuI9y1BZVva3CYZGiV8N-3" value="" style="endArrow=classic;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#114B5F;" edge="1" parent="1" source="xuI9y1BZVva3CYZGiV8N-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="392" y="414" as="sourcePoint" />
+            <mxPoint x="400" y="241" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuI9y1BZVva3CYZGiV8N-5" value="" style="endArrow=classic;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#114B5F;" edge="1" parent="1" source="xuI9y1BZVva3CYZGiV8N-1" target="xuI9y1BZVva3CYZGiV8N-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="392" y="204" as="sourcePoint" />
+            <mxPoint x="442" y="154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuI9y1BZVva3CYZGiV8N-7" value="&lt;font style=&quot;font-size: 12px&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Вывод&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; line-height: 19px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(166 , 226 , 46)&quot;&gt;ord&lt;/span&gt;(letter_one)&lt;span style=&quot;color: rgb(249 , 38 , 114)&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: rgb(174 , 129 , 255)&quot;&gt;96&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;ord&lt;/span&gt;(letter_two)&lt;span style=&quot;color: #f92672&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #ae81ff&quot;&gt;96&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(166 , 226 , 46)&quot;&gt;abs&lt;/span&gt;(&lt;span style=&quot;color: rgb(166 , 226 , 46)&quot;&gt;ord&lt;/span&gt;(letter_one)&amp;nbsp;&lt;span style=&quot;color: rgb(249 , 38 , 114)&quot;&gt;-&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(166 , 226 , 46)&quot;&gt;ord&lt;/span&gt;(letter_two))&amp;nbsp;&lt;span style=&quot;color: rgb(249 , 38 , 114)&quot;&gt;-&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(174 , 129 , 255)&quot;&gt;1&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xuI9y1BZVva3CYZGiV8N-8" value="" style="endArrow=classic;html=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#114B5F;" edge="1" parent="1" source="xuI9y1BZVva3CYZGiV8N-7" target="xuI9y1BZVva3CYZGiV8N-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294" y="266" as="sourcePoint" />
+            <mxPoint x="392" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuI9y1BZVva3CYZGiV8N-9" value="&lt;font style=&quot;font-size: 24px&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Конец&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="300" y="359" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xuI9y1BZVva3CYZGiV8N-10" value="&lt;font style=&quot;font-size: 14px&quot; face=&quot;Times New Roman&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="320" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="xuI9y1BZVva3CYZGiV8N-11" value="&lt;font style=&quot;font-size: 14px&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="xuI9y1BZVva3CYZGiV8N-12" value="&lt;font style=&quot;font-size: 14px&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="363" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xuI9y1BZVva3CYZGiV8N-13" value="&lt;font style=&quot;font-size: 14px&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;3&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="234" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
