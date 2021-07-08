@@ -1,23 +1,19 @@
 """
-1.Отсортируйте по убыванию методом пузырька одномерный целочисленный массив,
-заданный случайными числами на промежутке [-100; 100).
-Выведите на экран исходный и отсортированный массивы.
+1. Определение количества различных подстрок с использованием хэш-функции.
+Пусть дана строка S длиной N, состоящая только из маленьких латинских букв.
+Требуется найти количество различных подстрок в этой строке.
 """
 
 
-from random import randint
+import hashlib
 
-def bubble_sort(list_: list) -> list:
-    N = len(list_)
-    for i in range(N - 1):
-        for j in range(N - 1 - i):
-            if list_[j] < list_[j + 1]:
-                list_[j], list_[j + 1] = list_[j + 1], list_[j]
+string = input()
 
-    return list_
+sum_substring = set()
 
+for i in range(len(string)):
+    for j in range(len(string), i, -1):
+        hash_str = hashlib.sha1(string[i:j].encode('utf-8')).hexdigest()
+        sum_substring.add(hash_str)
 
-main_list = [randint(-100, 100) for _ in range(10)]
-print(main_list)
-
-print(bubble_sort(main_list))
+print(f'{len(sum_substring) - 1} различных подстрок в строке {string}')
